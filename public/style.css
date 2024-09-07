@@ -1,0 +1,88 @@
+* {
+    /* background-color: blanchedalmond; */
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1,
+h2 {
+    text-align: center;
+} 
+
+img {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    /* filter: (100%); */
+    /* float: left; */
+    /* border-radius: 2px; */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: aqua;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    background-color: gray;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar li {
+    float: left;
+    font-size: bold;
+    font-size: large;
+}
+
+/* workin in ps and images  */
+.workin {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.workin p {
+    padding: 20px;
+    border: 2px;
+}
+
+.workin p img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.workin p {
+    font: bold;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ccc;
+}
+
+#love {
+    width: 150px;
+    height: 150px;
+    border-radius: none;
+
+}
